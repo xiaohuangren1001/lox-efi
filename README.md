@@ -1,13 +1,11 @@
 # lox-efi
 Porting lox to UEFI Firmware
 
----
 ## What do you need:
 
 * gcc compiler (from MinGW-w64 project)
 * [qemu](https://qemu.org)
 
----
 ## How to run:
 **Run in QEMU:**
 * Create a directory called `esp`. Then, create `EFI` directory under `esp`, and create a `BOOT` directory under `esp/EFI`.
